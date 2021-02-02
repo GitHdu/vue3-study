@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.js",
     "build": "cross-env NODE_ENV=production webpack --config build/webpack.config.js",
-    "doc:dev": "vuepress dev docs",
-    "doc:build": "vuepress build docs",
-    "doc:deploy": "gh-pages -d docs/dist"
+    "doc:dev": "npx vuepress dev docs",
+    "doc:build": "npx vuepress build docs",
+    "doc:deploy": "npx gh-pages -d docs/dist"
   },
   "keywords": [],
   "author": "",
